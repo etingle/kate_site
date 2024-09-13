@@ -224,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url(../img/header_image.jpg);
+    background-image: url(../img/header_image.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center top;
@@ -254,6 +254,18 @@ header .intro-text .intro-heading {
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 25px
+}
+
+
+@media (min-width: 1700px) {
+    header {
+        height:1000px;
+    }
+}
+@media (min-width: 1300px) {
+    header {
+        height:800px;
+    }
 }
 @media (min-width: 1100px) {
     header {
@@ -319,6 +331,7 @@ section h3.section-subheading {
     border-radius: 50px;
     width: 100px;
     height: 100px;
+    margin:auto;
 }
 
 .logo-item {
